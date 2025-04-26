@@ -15,9 +15,7 @@ ul {
 
 .container {
     width: 1158px;
-    padding: 0 15px;
     margin: 0 auto;
-    align-items: center;
 }
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
@@ -310,7 +308,6 @@ display: flex;
     height: 40px;
     margin: 0 auto;
     margin-bottom: 32px;
-    margin-left: 16px;
 }
 .ref-icons {
     width: 100%;
@@ -424,4 +421,35 @@ padding: 100px 0;
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
+}
+.con-footer {
+    display: flex;
+    
+}
+.social-media {
+    width: 208px;
+    height: 80px;
+    align-items: center;
+    margin: 0 auto;
+    margin-left: 120px;
+    
+}
+.social {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.icon-list {
+    gap: 16px;
+    display: flex;
+
+}
+.list-icon-footer {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
 }
