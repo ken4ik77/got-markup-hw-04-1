@@ -52,6 +52,7 @@ display: flex;
     align-items: center;
     display: flex;
     gap: 40px;
+    position: relative;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -97,12 +98,13 @@ display: flex;
     color: #404BBF;
 
 }
-.curent::before{
+.curen.navigation-list:first-child::before{
 
 }
 
-.curent::after {
+.navigation-list:first-child::after{
     position: absolute;
+    color: #404BBF;
     width: 100%;
     left: 0;
     bottom: -1px;
@@ -246,6 +248,7 @@ display: flex;
     height: 112px;
     background-color: #F4F4FD;
     border-radius: 4px;
+    margin: 0 auto;
     margin-bottom: 8px;
     align-items: center;
     justify-content: center;
@@ -334,6 +337,12 @@ display: flex;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.ref-icons:hover{
+    background-color: #404bbf;
+}
+.ref-icons:focus{
+    background-color: #404bbf;
 }
 .icons-ourteam {
     fill: #F4F4FD;
