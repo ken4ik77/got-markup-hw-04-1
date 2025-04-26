@@ -100,7 +100,7 @@ display: flex;
     color: #404BBF;
 
 }
-.curen.navigation-list:first-child::before{
+.navigation-list:first-child::before{
 
 }
 
@@ -196,9 +196,6 @@ display: flex;
     cursor: pointer;
 }
 /* advsntages */
-.div-advant {
-    
-}
 .advant {
     font-size: 20px;
     line-height: 1.2;
@@ -207,6 +204,9 @@ display: flex;
     display: flex;
     gap: 24px;
     padding: 120px 0;
+}
+.advent-div {
+
 }
 .advant-h {
     font-weight: 500;
@@ -246,14 +246,15 @@ display: flex;
 }
 .div-icons-advant {
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 264px;
     height: 112px;
     background-color: #F4F4FD;
     border-radius: 4px;
     margin: 0 auto;
     margin-bottom: 8px;
-    align-items: center;
-    justify-content: center;
+    border: 1px solid #8e8f99;
 
 
 }
