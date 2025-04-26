@@ -349,12 +349,39 @@ display: flex;
     column-gap: 24px;
     row-gap: 48px;
     width: calc((100% - 48px) / 3);
+    position: relative;
 }
 .folio-info {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    display: flex;
+    transform: translateY(100%);
+    
+}
+.overlay-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    padding-left: 32px;
+    text-align: center;
+}
+
+.list-folio:hover .overlay {
+    transform: translateY(0%);
 }
 .portfolio-head-h {
     font-weight: 500;
