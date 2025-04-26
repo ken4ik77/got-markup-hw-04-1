@@ -450,15 +450,13 @@ padding: 100px 0;
 }
 .con-footer {
     display: flex;
-    
+    align-items: baseline;
 }
 .social-media {
     width: 208px;
     height: 80px;
     align-items: center;
     margin: 0 auto;
-    margin-left: 120px;
-    
 }
 .social {
     font-weight: 500;
@@ -478,4 +476,7 @@ padding: 100px 0;
     width: 40px;
     height: 40px;
     margin: 0 auto;
+}
+log-foot-div {
+    margin-right: 120px
 }
