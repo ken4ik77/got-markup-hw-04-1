@@ -185,6 +185,7 @@ display: flex;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .button:hover {
@@ -278,6 +279,8 @@ display: flex;
 }
 .team-info{
 margin-bottom: 32px;
+padding: 32px 0;
+
 
 }
 .team {
@@ -388,11 +391,13 @@ margin-bottom: 32px;
     width: calc((100% - 48px) / 3);
     position: relative;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
 }
 .list-folio:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
 }
 .folio-info {
     padding: 32px 16px;
@@ -401,15 +406,15 @@ margin-bottom: 32px;
 
 }
 .overlay {
-    position: absolute;
+    position: relative;
     top: 0;
     right: 0;
     width: 100%;
     height: 100%;
     background-color: #4D5AE5;
     display: flex;
-    
     transform: translateY(0%);
+    
     
 }
 .overlay-text {
@@ -479,6 +484,7 @@ padding: 100px 0;
 .con-footer {
     display: flex;
     align-items: baseline;
+    margin-right: 120px;
 }
 .social-media {
     width: 208px;
@@ -505,5 +511,11 @@ padding: 100px 0;
     height: 40px;
 }
 log-foot-div {
-    margin-right: 120px;
+
+}
+.foot-icon:hover{
+    background-color: #31d0aa;
+}
+.foot-icon:focus{
+    background-color: #31d0aa;
 }
