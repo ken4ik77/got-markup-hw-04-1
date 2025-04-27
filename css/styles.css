@@ -80,6 +80,9 @@ display: flex;
     gap: 40px;
     
 }
+.adres-info {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .adress-list {
     display: flex;
     gap: 40px;
@@ -109,11 +112,11 @@ display: flex;
     position: relative;
     color: #404bbf;
 }
-.nav-link.curent::before{
+.nav-link .curent::before{
 
 }
 
-.curent::after {
+.nav-link .curent::after {
     content: '';
     position: absolute;
     left: 0;
@@ -121,7 +124,7 @@ display: flex;
     display: block;
     width: 100%;
     height: 4px;
-    border-radius: 4px;
+    border-radius: 2px;
     background-color: #404bbf;
 }
 
@@ -434,9 +437,9 @@ padding: 32px 0;
     padding: 40px 32px;
     background-color: #4d5ae5;
     transform: translateY(100%);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.list-folio:hover {
+.list-folio:hover .overlay-text {
     transform: translateY(0%);
     transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
